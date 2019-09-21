@@ -27,7 +27,7 @@
     "zone.js": "~0.9.1",
     "typescript": "~3.5.3",
     "@angular/cli": "~8.3.4",
-    "@angular/compiler-cli": "~8.2.5"
+    "postinstall": "ng build --aot -prod"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.4",
