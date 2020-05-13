@@ -2,23 +2,13 @@ $fundo-esquerda: #6600cc;
 $fundo-direita: #cc99ff;
 $marcador:  #00ff00;
 
-body {
-  margin-top: 0px;
-  margin-left: 0px;
-  padding: 0px;
-}
-
 .principal {
   font-family: "Roboto", sans-serif;
-  margin-left: 0px;
-  margin-top: 0px;
-  padding: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(45deg, $fundo-esquerda 0%, $fundo-direita 100%);
 
   .signature {
     font-style: italic;
@@ -33,21 +23,23 @@ body {
   }
 }
 
-.navigationWrapper {
-  position: relative;
+.navigationPanel {
+  position: fixed;
+  top: 0;
+  right: 10;
+  left: 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px;
   background-color: #222;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
   color: white;
-  border-radius: 10px;
   text-transform: uppercase;
   overflow: hidden;
-  width: 650px;
+  width: 100%;
 
-  .logoWrapper {
+  .logoPanel {
     display: flex;
 
     .stylish {
@@ -178,8 +170,21 @@ body {
   border-radius: 10px;
   text-transform: uppercase;
   overflow: hidden;
+  font-size: small;
   width: 650px;
   margin-top: 30px;
   background-color: #ffffff;
   color: #6600cc;
+}
+
+.conteudo {
+  font-family: "Roboto", sans-serif;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }

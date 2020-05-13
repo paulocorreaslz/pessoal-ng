@@ -1,5 +1,10 @@
+$fundo-esquerda: #6600cc;
+$fundo-direita: #cc99ff;
+$marcador:  #00ff00;
+
 /* You can add global styles to this file, and also import other style files */
 body {
+  background: linear-gradient(45deg, $fundo-esquerda 0%, $fundo-direita 100%);
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
