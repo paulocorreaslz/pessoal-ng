@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  nome = 'PAULO';
-  marcador = 'CORREA'
+  public nome: string = 'PAULO';
+  public sobrenome: string = 'CORREA';
 }
