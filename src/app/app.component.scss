@@ -18,7 +18,7 @@ $marcador:  #00ff00;
     transition: all 0.3s ease-in-out;
 
     &:hover {
-      color: white;
+      color: whitesmoke;
     }
   }
 }
@@ -35,7 +35,7 @@ $marcador:  #00ff00;
   padding: 20px;
   background-color: #222;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
-  color: white;
+  color: whitesmoke;
   text-transform: uppercase;
   overflow: hidden;
   width: 100%;
@@ -60,7 +60,7 @@ $marcador:  #00ff00;
     li {
       opacity: 1;
       list-style-type: none;
-      color: white;
+      color: whitesmoke;
       text-decoration: none;
       transition: all 0.3s ease-in-out;
     }
@@ -159,13 +159,20 @@ $marcador:  #00ff00;
   transform: translate(50px, 0);
 }
 
-.titulo {
-  position: relative;
+.titulo1 {
   display: flex;
   justify-content: left;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-left: 30px;
-  color: #ffffff;
+  color:whitesmoke;
+}
+
+.titulo {
+  display: flex;
+  justify-content: left;
+  margin-top: 80px;
+  margin-left: 30px;
+  color:whitesmoke;
 }
 
 .container {
@@ -177,12 +184,12 @@ $marcador:  #00ff00;
   padding: 20px;
   background-color: #222;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
-  color: white;
+  color: whitesmoke;
   text-transform: uppercase;
   overflow: hidden;
   font-size: small;
   width: 90vw;
-  background-color: #ffffff;
+  background-color: whitesmoke;
   color: #6600cc;
   bottom: 10px;
 }
@@ -222,6 +229,28 @@ $marcador:  #00ff00;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: white;
+}
+.projetos .container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  justify-content: space-around;
+}
+.projeto-card {
+  height: 290px;
+  width: 210px;
+  background-color:whitesmoke;
+}
+.habilidades .container {
+  background-image: url("../assets/img/04.jpg");
+  opacity: 0.9;
+  background-repeat: repeat;
+  background-position: left;
+}
+.habilidades li {
+  color: white;
 }
 .formacao {
   font-family: "Roboto", sans-serif;
@@ -232,4 +261,13 @@ $marcador:  #00ff00;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.formacao .container {
+  background-image: url("../assets/img/11.jpg");
+  opacity: 0.8;
+  background-repeat: space;
+  background-position: right;
+  height: 30vh;
+  color: whitesmoke;
 }
