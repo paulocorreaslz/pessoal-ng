@@ -183,6 +183,7 @@ $retorno: cubic-bezier(0.445, 0.05, 0.55, 0.95);
   justify-content: left;
   margin-top: 80px;
   margin-left: 30px;
+  width: 95vw;
   color:whitesmoke;
 }
 
@@ -192,6 +193,7 @@ $retorno: cubic-bezier(0.445, 0.05, 0.55, 0.95);
   justify-content: left;
   font-size: 20px;
   margin-top: 80px;
+  width: 95vw;
   margin-left: 30px;
   color:whitesmoke;
 }
@@ -231,7 +233,7 @@ $retorno: cubic-bezier(0.445, 0.05, 0.55, 0.95);
   font-size: small;
   width: 90vw;
   height: 250px;
-  color: whitesmoke;
+  color:black;
   bottom: 10px;
   border-radius: 10px;
   box-shadow:
@@ -252,17 +254,17 @@ $retorno: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
 .conteudo .apresentacao {
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: center;
-  object-position: bottom left;
-  background: url('../assets/img/23.jpg');
-  background-size: cover;
+  height: 300px;
+  background-image: url("../assets/img/18.jpg");
+  opacity: 0.9;
+  object-fit: fill;
+  object-position: center;
+  background-position: left;
   transition:
     1s $retorno,
     opacity 5s 1s $retorno;
+  }
 
-}
 .projetos {
   font-family: "Roboto", sans-serif;
   margin-left: 10px;
@@ -290,6 +292,7 @@ $retorno: cubic-bezier(0.445, 0.05, 0.55, 0.95);
   justify-content: center;
   color: white;
 }
+
 .projetos .container {
   flex-direction: row;
   align-items: center;
@@ -303,9 +306,11 @@ $retorno: cubic-bezier(0.445, 0.05, 0.55, 0.95);
   background: linear-gradient(115deg, #6600cc 0%, #66aa 100%);
 }
 .habilidades .container {
-  background-image: url("../assets/img/04.jpg");
+  height: 300px;
+  background-image: url("../assets/img/19.jpg");
   opacity: 0.9;
-  background-repeat: repeat;
+  object-fit: fill;
+  object-position: center;
   background-position: left;
   transition:
     1s $retorno,
