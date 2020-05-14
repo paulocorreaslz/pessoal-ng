@@ -1,3 +1,4 @@
+
 $fundo-esquerda: #6600cc;
 $fundo-direita: #cc99ff;
 $marcador:  #00ff00;
@@ -106,15 +107,29 @@ $retorno: cubic-bezier(0.445, 0.05, 0.55, 0.95);
     }
 
     .subnavigation {
+      z-index: 0;
       display: none;
       list-style-type: none;
       width: 100px;
       position: absolute;
-      top: 40%;
+      top: 80%;
       left: 25%;
       margin: auto;
       transition: all 0.3s ease-in-out;
       background-color: #222;
+
+      &:hover {
+        z-index: 0;
+        display: block;
+        list-style-type: none;
+        width: 100px;
+        position: absolute;
+        top: 80%;
+        left: 25%;
+        margin: auto;
+        transition: all 0.3s ease-in-out;
+        background-color: #222;
+      }
 
       li a {
         font-size: 12px;
