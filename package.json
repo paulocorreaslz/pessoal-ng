@@ -52,7 +52,8 @@
     "tslint": "~5.15.0",
     "serialize-javascript": ">=3.1.0",
     "handlebars": ">=4.5.3",
-    "yargs-parser": ">=13.1.2"
+    "yargs-parser": ">=13.1.2",
+    "node-forge": ">=0.10.0"
   },
   "engines": {
     "node": "12.8.1",
