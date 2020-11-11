@@ -30,7 +30,8 @@
     "zone.js": "~0.10.2",
     "serialize-javascript": ">=3.1.0",
     "handlebars": ">=4.5.3",
-    "yargs-parser": ">=13.1.2"
+    "yargs-parser": ">=13.1.2",
+    "webpack-subresource-integrity": ">=1.5.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.901.10",
@@ -53,7 +54,8 @@
     "serialize-javascript": ">=3.1.0",
     "handlebars": ">=4.5.3",
     "yargs-parser": ">=13.1.2",
-    "node-forge": ">=0.10.0"
+    "node-forge": ">=0.10.0",
+    "webpack-subresource-integrity": ">=1.5.1"
   },
   "engines": {
     "node": "12.8.1",
