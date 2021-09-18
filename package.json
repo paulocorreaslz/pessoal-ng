@@ -55,7 +55,8 @@
     "handlebars": ">=4.5.3",
     "yargs-parser": ">=13.1.2",
     "node-forge": ">=0.10.0",
-    "webpack-subresource-integrity": ">=1.5.1"
+    "webpack-subresource-integrity": ">=1.5.1",
+    "set-value": ">=4.0.1"
   },
   "engines": {
     "node": "12.8.1",
